@@ -1,4 +1,5 @@
 var path = require("path");
+var webpack = require("webpack");
 
 module.exports = {
     entry: [
@@ -26,6 +27,13 @@ module.exports = {
 
         ]
     },
+    /** Uncomment the lines below to enable uglified code, will cause slower build times **/
+    // plugins: [
+    //     new webpack.optimize.UglifyJsPlugin({
+    //         sourceMap: true,
+    //         mangle: false
+    //     })
+    // ],
     resolve: {
         extensions: ['', '.js', '.jsx']
     }
