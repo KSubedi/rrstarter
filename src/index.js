@@ -1,3 +1,7 @@
+// Expose jQuery and Bootstrap JS
+require('expose?$!expose?jQuery!jquery');
+require("bootstrap/dist/js/bootstrap.min.js");
+
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
