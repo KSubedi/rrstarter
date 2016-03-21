@@ -15,7 +15,7 @@
 #Getting Started
 Getting started is really easy,  simply clone the repository and you are good to go:
 
-    git clone https://github.com/ksubedi/rrstrater.git
+    git clone https://github.com/KSubedi/RRStarter.git
     cd RRStarter
     npm install
 
